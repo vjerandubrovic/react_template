@@ -1,0 +1,10 @@
+@import '../../scss/2.colors';
+
+.Account{
+    height: 100vh;
+    background-color: getColor(color_background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

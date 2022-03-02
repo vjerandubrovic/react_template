@@ -1,0 +1,26 @@
+@import './scss/1.reset';
+@import './scss/2.colors';
+@import './scss/4.fontSize';
+@import './scss/6.animations';
+
+body {
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: getFontSize(xxs);
+  background-color: getColor(color_body_background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.route-wrapper {
+  position: relative;
+}
+
+.route-wrapper > div {
+  position: absolute;
+  width: 100%;
+}
